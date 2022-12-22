@@ -1,7 +1,11 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {
-    "ghcr.io/devcontainers/features/docker-in-docker:1": {}
+    "ghcr.io/devcontainers/features/sshd:1": {
+      "version": "latest"
+  },
+  "ghcr.io/devcontainers/features/docker-in-docker:1": {},
+    "ghcr.io/drud/ddev-devcontainer/install-ddev:latest": {}
   },
   "postCreateCommand": "curl https://apt.fury.io/drud/gpg.key | sudo apt-key add - && echo 'deb https://apt.fury.io/drud/ * *' | sudo tee -a /etc/apt/sources.list.d/ddev.list && sudo apt update && sudo apt install -y ddev && ddev config global --web-environment='PLATFORMSH_CLI_TOKEN='`echo $PLATFORM_CLI`"
 }
