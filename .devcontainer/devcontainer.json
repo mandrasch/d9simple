@@ -7,4 +7,22 @@
     "ghcr.io/devcontainers/features/docker-in-docker:1": {},
     "ghcr.io/drud/ddev-devcontainer/install-ddev:latest": {}
   },
+  "customizations": {
+    "codespaces": {
+      "repositories": {
+        "drud/d9simple":{
+          "permissions": {
+            "contents": "write",
+            "pull_requests": "write"
+          }
+        },
+        "drud/d9simple-artifacts":{
+          "permissions": {
+            "contents": "write",
+            "pull_requests": "write"
+          }
+        }
+      }
+    }
+  }
 }

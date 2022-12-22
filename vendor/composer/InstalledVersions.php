@@ -29,7 +29,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => 'd3df1c761c6c1f84acca4842b39b0b24e9ca37bc',
+    'reference' => 'a1ba41ac3350032aa14b8505ff8140ee3b834940',
     'name' => 'drupal/recommended-project',
   ),
   'versions' => 
@@ -405,7 +405,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => 'd3df1c761c6c1f84acca4842b39b0b24e9ca37bc',
+      'reference' => 'a1ba41ac3350032aa14b8505ff8140ee3b834940',
     ),
     'drush/drush' => 
     array (
@@ -786,21 +786,21 @@ private static $installed = array (
     ),
     'symfony/filesystem' => 
     array (
-      'pretty_version' => 'v5.4.13',
-      'version' => '5.4.13.0',
+      'pretty_version' => 'v6.2.0',
+      'version' => '6.2.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'ac09569844a9109a5966b9438fc29113ce77cf51',
+      'reference' => '50b2523c874605cf3d4acf7a9e2b30b6a440a016',
     ),
     'symfony/finder' => 
     array (
-      'pretty_version' => 'v6.0.11',
-      'version' => '6.0.11.0',
+      'pretty_version' => 'v6.2.0',
+      'version' => '6.2.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => '09cb683ba5720385ea6966e5e06be2a34f2568b1',
+      'reference' => 'eb2355f69519e4ef33f1835bca4c935f5d42e570',
     ),
     'symfony/http-client-contracts' => 
     array (
@@ -973,12 +973,12 @@ private static $installed = array (
     ),
     'symfony/string' => 
     array (
-      'pretty_version' => 'v6.0.15',
-      'version' => '6.0.15.0',
+      'pretty_version' => 'v6.2.2',
+      'version' => '6.2.2.0',
       'aliases' => 
       array (
       ),
-      'reference' => '51ac0fa0ccf132a00519b87c97e8f775fa14e771',
+      'reference' => '863219fd713fa41cbcd285a79723f94672faff4d',
     ),
     'symfony/translation' => 
     array (
