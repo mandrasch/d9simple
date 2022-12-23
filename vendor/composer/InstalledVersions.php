@@ -29,7 +29,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => 'f957a07ce3b25e7fa9a42823ff50582d033c9171',
+    'reference' => '53e35a89417884d56f076195d6cacf1c8e3837b6',
     'name' => 'drupal/recommended-project',
   ),
   'versions' => 
@@ -405,7 +405,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => 'f957a07ce3b25e7fa9a42823ff50582d033c9171',
+      'reference' => '53e35a89417884d56f076195d6cacf1c8e3837b6',
     ),
     'drush/drush' => 
     array (
