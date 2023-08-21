@@ -20,5 +20,5 @@
         "label": "web https"
       }
     },
-    "postCreateCommand": "setup_project.sh"
+    "postCreateCommand": "./setup_project.sh"
 }
